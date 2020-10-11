@@ -19,6 +19,7 @@ int main() {
     pointer = &a;
 
     printf("pointer: %p\n", pointer);
+    printf("*pointer: %d\n", *pointer);
 
     return 0;
 }

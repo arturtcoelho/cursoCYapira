@@ -1,0 +1,23 @@
+Programa recomendado, de fácil instalação para Windows:
+    IDE Code::Blocks: http://www.codeblocks.org/downloads/26
+    -Selecione a opção "codeblocks-20.03-setup.exe", e efetue o download do instalador
+    -Execute o instalador e selecione as opções padrões, ao final você tera o 
+    programa instalado e seu atalho na área de trabalho!
+
+Programa recomendado para sistemas Linux 
+    Visual Studio Code: https://code.visualstudio.com/
+    -(O VScode pode ser utilizado também no Windows, 
+    porém é necessária a instalação do compilador 
+    gcc: http://www.mingw.org/wiki/Getting_Started)
+
+Outros métodos de compilação de código:
+    -Caso você tenha familiaridade com o terminal (Linux) 
+    ou Command Prompt/Power Shell (Windows) 
+    ou ainda o Windows Subsistem for Linux (WSL) (Windows 10)
+    poderá compilar e rodar seus códigos diretamente 
+    no terminal com o compilador "gcc"
+    (no Windows é necessário também instalar o 
+    compilador gcc: http://www.mingw.org/wiki/Getting_Started)
+
+Existe ainda diversos compiladores online que não requerem instalação:
+    https://www.tutorialspoint.com/compile_c_online.php
