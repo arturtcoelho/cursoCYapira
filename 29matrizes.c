@@ -21,9 +21,7 @@ void imprime_matriz(int m[TAM][TAM]){
 
 int main() {
     // TAM == 3
-    int matriz[TAM][TAM] = {{0, 1, 2}, 
-                            {3, 4, 5}, 
-                            {6, 7, 8}};
+    int matriz[TAM][TAM] = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}};
 
     matriz[0][0] = 11;
     imprime_matriz(matriz);

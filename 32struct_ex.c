@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-#define TAM 2
+#define TAM 4
 
 struct matriz{
     int tam;
-    int matriz[4][4];
+    int matriz[TAM][TAM];
 };
 
 typedef struct matriz matriz_t;
@@ -14,7 +14,7 @@ void inicializa_matriz(matriz_t *m){
     for (int i = 0; i < m->tam; i++) {
         for (int j = 0; j < m->tam; j++) {
             scanf("%d", &(m->matriz[i][j]));
-        }        
+        }
     }
     return;
 }
@@ -39,4 +39,3 @@ int main() {
 
     return 0;
 }
-

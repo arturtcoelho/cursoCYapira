@@ -15,7 +15,7 @@ void inicializa_matriz(matriz_t *m){
 
     // aloca o vetor de ponteiros
     m->matriz = malloc(TAM * sizeof(int*));
-    if (!m->matriz){ // testa se a alocação foi bem sucedida
+    if (m->matriz == NULL){ // testa se a alocação foi bem sucedida
         printf("Erro de alocação\n");
         exit(1);
     }
@@ -61,9 +61,8 @@ int main() {
     matriz = malloc(sizeof(matriz_t));
 
     inicializa_matriz(matriz);
-    // operações com uma ou mais matrizes
+    // operaçõa em matriz
     imprime_matriz(matriz);
-
     libera_matriz(matriz);
 
     return 0;

@@ -2,8 +2,14 @@
 
 int main()
 {
-    
-    int array[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+
+    int array[10];
+
+    for (int i = 0; i < 10; i++){ 
+        array[i] = i*i;
+    }
+
+    // printf("%d\n", array[9]);
 
     for (int i = 0; i < 10; i++){ 
         printf("%d\n", array[i]);
