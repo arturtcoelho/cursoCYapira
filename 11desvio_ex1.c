@@ -3,7 +3,7 @@
 int main()
 {
 
-    int n = 42;
+    int n = 41;
     
     if (n % 2 == 0) {
         printf("par\n");

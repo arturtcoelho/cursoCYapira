@@ -5,6 +5,7 @@ int escreva_ola() {
 }
 
 int main() {
+    
     escreva_ola();
 
     return 0;

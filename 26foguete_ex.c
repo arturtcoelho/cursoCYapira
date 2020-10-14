@@ -2,7 +2,7 @@
 
 int main() {
 
-    int fuel;
+    int fuel = 0;
     int mass;
 
     scanf("%d", &mass);

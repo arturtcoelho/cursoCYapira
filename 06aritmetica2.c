@@ -12,7 +12,12 @@ int main()
     printf("pi/2: %f\n", y);
     printf("pi^2: %f\n", pi*pi);
 
-    int a, b;
+
+
+    float a = 3, b = 4;
+    printf("a / b: %f\n", a / b);
+
+    a + b * c
 
     a * b;
     a / b;
